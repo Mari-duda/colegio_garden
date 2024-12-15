@@ -1,0 +1,253 @@
+body {
+    background-color: #5271FF;
+}
+
+nav img {
+    height: 40px;
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #00BF63;
+    background-size: cover;
+    font-size: 39px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+
+    position: fixed;
+}
+
+nav a {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+    color: black;
+    text-decoration: none;
+}
+
+.inicio img {
+    width: 10%;
+    margin-left: 90%;
+}
+
+.inicio h1 {
+    font-size: 150px;
+    margin-left: 17%;
+
+}
+
+.inicio a {
+    color: black;
+    font-size: 60px;
+    text-decoration: none;
+    padding: 10px 20px;
+
+    background-color: #00BF63;
+    border-radius: 5px;
+
+}
+
+.botao1 {
+    display: inline-block;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    margin-right: 150px;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+
+.botao2 {
+    display: inline-block;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.inicio a:hover {
+    background-color: #3FBFA8;
+    padding: 20px;
+
+}
+
+a:hover {
+    background-color: #3FBFA8;
+    padding: 1%;
+}
+
+.logo img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.sobre p{
+    text-align: center;
+    font-size: x-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #3FBFA8;
+    padding: 25px;
+    gap: 0;
+}
+
+.sobre h1{
+    margin-top: 10%;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #3FBFA8;
+    padding: 25px;
+    gap: 0;
+}
+
+.competencias ol{
+    font-size: xx-large;
+    margin-left: 39%;
+    list-style-position:inside;
+}
+
+.projeto1 img{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.projeto1{
+    background-color: #3FBFA8;
+    display:flex;
+    width: 70%;
+    margin-left: 17%;
+    padding: 15px;
+}
+
+.descricao{
+    width: 50%;
+    font-size: x-large;
+}
+
+.projeto2{
+    margin-top: 60px;
+    background-color: #3FBFA8;
+    display:flex;
+    width: 70%;
+    margin-left: 17%;
+    padding: 15px;
+}
+
+.projeto2 img{
+    width: 50%;
+    padding-left: 15px;
+}
+
+.rodape img{
+    width: 2%;
+}
+
+.rodape{
+    background-color: #00BF63;
+    background-size: cover;
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.contato{
+    display:ruby;
+    margin-right: 5%;
+}
+
+.Sustentabilidade{
+    text-align: center;
+}
+
+.Sustentabilidade img{
+    width: 20%;
+}
+
+.Sustentabilidade p{
+  font-size: x-large;
+}
+
+.ajudar img{
+    width: 35%;
+}
+
+.ajudar {
+    display:inline-flex;
+    margin-left: 20%;
+    background-color: #00BF63;
+}
+
+.ajudar img{
+    margin-left: 70px;
+}
+
+.fila1 img{
+    width: 25%;
+    margin: 2.5%;
+    border-width: 10px;
+    border-color: #00BF63;
+    border-style: outset;
+
+}
+
+.fila1{
+    display: flex;
+    margin-left: 10%;
+
+}
+
+.fila2{
+    display: flex;
+    margin-left: 23%;
+}
+
+.fila2 img{
+    width: 30%;
+    margin: 2.5%;
+    border-width: 10px;
+    border-color: #00BF63;
+    border-style: outset;
+
+}
+
+#section2 {
+    padding: 20px;
+
+}
+
+.ajudar {
+    display: flex; /* Flexbox para alinhar o texto e imagem lado a lado */
+    
+    margin-bottom: 20px; /* Espaçamento entre os blocos */
+    background-color:#00BF63 ; /* Cor de fundo dos blocos */
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+.imagem {
+    flex: 1; /* A imagem ocupará o restante do espaço disponível */
+    text-align: center; /* Centraliza a imagem */
+}
+
+
+.imagem img {
+    max-width: 100%; /* A imagem ocupa 100% do seu contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+   
+}
+
